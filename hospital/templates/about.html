@@ -1,0 +1,20 @@
+
+{% extends 'navigation.html' %}
+{% load static %}
+{% block body %}
+<div class="container" style="margin-top:50px">
+    <h2 class="text-center">About Us</h2>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-sm-4 text-center ">
+            <img src="{% static 'images/download.jpg' %}" width="330" height="180" class="img-responsive">
+        </div>
+        <div class="col-sm-8 font-weight-bold mt-5">
+            This is simple Hospital Management project, developed by Akshay Mundaye using HTML5,CSS3,SQLite,Django and Python
+        </div>
+    </div>
+</div>
+{% endblock %}
