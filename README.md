@@ -1,3 +1,3 @@
 # Hosp_Management
 
-For code - select branch "project".
+This is simple Hospital management system using python-django, HTML5, SQLite.
